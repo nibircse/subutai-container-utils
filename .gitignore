@@ -1,0 +1,3 @@
+debian/subutai-container-utils/
+debian/debhelper*
+debian/*log

@@ -1,0 +1,15 @@
+Source: subutai-container-utils
+Section: unknown
+Priority: optional
+Maintainer: Lars Boegild Thomsen <lbthomsen@optimal-dynamics.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/subutai-io/subutai-container-utils
+#Vcs-Git: https://anonscm.debian.org/collab-maint/subutai-container-utils.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/subutai-container-utils.git
+
+Package: subutai-container-utils
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, python
+Description: Subutai Container Utils
+ Subutai Container Utils
